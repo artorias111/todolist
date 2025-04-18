@@ -10,3 +10,22 @@ fn main() {
         $ todolist done -i 1001 // (ID) \n
         $ todolist list -a // list all, including archived");
 }
+
+
+mod io { }
+
+mod operations {
+    use rand::Rng;
+
+    pub fn add_task()  { } // add a task to the list, and assign a random ID
+
+    pub fn remove_task() { }
+
+    pub fn archive_task() { } // mark a task as done
+
+    pub fn unarchive_task() { }
+
+    pub fn change_priority() { }
+
+    pub fn list_tasks() { }
+}
